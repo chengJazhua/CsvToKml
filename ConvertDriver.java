@@ -9,7 +9,7 @@ public class ConvertDriver {
 	
 	public static void main(String[] args) {
 		
-		File test = new File("C:\\Users\\chengj\\Documents\\test.kml");
+		File test = new File(""); // add file path to where kml file is to be outputted
 		FileWriter fw = null;
 		try {
 			fw = new FileWriter(test);
@@ -37,7 +37,7 @@ public class ConvertDriver {
         		}
         	}
         }
-        File folder = new File("C:\\Users\\chengj\\Documents\\Grid Project\\gridwork\\gridwork\\newcsvexamples");
+        File folder = new File(""); // add file path to folder of csv files here
         File[] listOfFiles = folder.listFiles();
         int count = 0;
         int timeStart = 12*60;
