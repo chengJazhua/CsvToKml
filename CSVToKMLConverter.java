@@ -189,7 +189,7 @@ public class CSVToKMLConverter
 	
 	
 	public String ScreenOverlay() {
-		String screen = "<ScreenOverlay>\n" + "<Icon>\n" + "<href>\n" + "C:\\Users\\chengj\\Documents\\testpic.png"
+		String screen = "<ScreenOverlay>\n" + "<Icon>\n" + "<href>\n" + "" // enter file path to png for overlay here
 				+ "</href>\n" + "</Icon>\n";
 		screen += "<overlayXY x=\"0\" y=\"0.1\" xunits=\"fraction\" yunits=\"fraction\"/>\n" + 
 				"<screenXY x=\"0\" y=\"0.1\" xunits=\"fraction\" yunits=\"fraction\"/>\n";
